@@ -2,7 +2,7 @@
 """
 Created on Wed Dec 10 14:44:16 2021
 
-@author: ceren
+@author: ceren aksoy
 """
 
 
@@ -38,7 +38,7 @@ describe = df.describe()
 corr_matrix = df.corr()
 sns.clustermap(corr_matrix, annot = True, fmt = ".2f")
 plt.title("Özellikler arasındaki korelasyon:")
-plt.show() #BMI ve glikoz ile diyabet arasında yüksek ihtimalle bir ilişki var.
+plt.show() 
 
 
 # Outcome ve features
